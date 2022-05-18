@@ -4,11 +4,11 @@ h1 {
     font-size: 200px;
 }
 
-/*
-img {
-    background-color: red;
+/******Pseudo classes have a colon in front.  such as hover */
+img:hover {
+    background-color: gold;
 }
-*/
+
 
 /*********** CLASS SELECTORS ***********/
 
@@ -20,8 +20,15 @@ img {
     background-color: red;
 }
 
+.circular {
+    border-radius: 100%;
+}
+
 /************** ID SELECTORS *************/
+/* Can have mulitple names in classes but not in IDs */
 
 #heading {
     color: blue;
 }
+
+
